@@ -46,23 +46,13 @@ git clone https://github.com/yourusername/weatherapp.git
 cd weatherapp
 Get the dependencies:
 
-bash
-Sao chép
-Chỉnh sửa
-flutter pub get
+
 ▶️ Running the App
 To run the app on an emulator or device:
 
-bash
-Sao chép
-Chỉnh sửa
-flutter run
+
 To build for release (e.g., APK):
 
-bash
-Sao chép
-Chỉnh sửa
-flutter build apk
 🌐 Weather API Setup
 This app uses an external weather API like OpenWeatherMap. Follow these steps:
 
@@ -74,9 +64,6 @@ Create a .env file or add the key directly into your configuration file
 
 Example (not secure for production):
 
-dart
-Sao chép
-Chỉnh sửa
 const String apiKey = 'YOUR_API_KEY';
 🛠 Features
  Get current weather by GPS location
@@ -109,10 +96,7 @@ Home Screen	Search City	Weather Info
 🧪 Testing
 You can write widget and unit tests like this:
 
-bash
-Sao chép
-Chỉnh sửa
-flutter test
+
 🙌 Contributing
 Contributions are welcome! Fork this repo and submit a pull request to improve the app.
 
